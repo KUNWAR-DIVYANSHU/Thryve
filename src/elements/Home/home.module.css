@@ -1,0 +1,124 @@
+.bodyStyle{
+    background-color: var(--card-1-color);
+    height: 100vh;
+}
+
+.navBarStyle{
+    position: fixed;
+    width: calc(100% - 100px);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color : var(--text-color-1);
+}
+
+.navLinksParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks , .navLinks2{
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
+.navLinks:hover{
+    color: var(--text-color);
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+.navLinks2:hover{
+    color: var(--text-color);
+    font-size: medium;
+    transition: 0.3s ease-in-out;
+}
+
+.registerStyle{
+    padding: 6px 20px;
+    margin-left: 30px;
+    border: 1px solid var(--text-color-1);
+    border-radius : 4px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.registerStyle:hover{
+    border : 1px solid var(--background-color);
+    background: var(--primary-gradient);
+}
+
+.loginStyle{
+    padding: 5px 0px;
+    margin-left: 30px;
+    border-radius : 4px;
+    color: var(--text-color-1);
+    cursor: pointer;
+}
+
+.loginStyle:hover{
+    color: var(--text-color);
+}
+
+.footerStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--background-color);
+    position: fixed;
+    width: 100%;
+    padding: 4px;
+    bottom: 0px;
+    font-size: small;
+}
+
+.mainContentStyle{
+    padding: 54px 20px 28px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 82px);
+}
+
+.verMessage{
+    border: 1px solid var(--primary-color);
+    padding: 6px 24px;
+    border-radius: 8px;
+}
+.verImage{
+    margin:0px 0px -3px 10px;
+}
+
+.headTitle{
+    font-size: xx-large;
+    max-width: 750px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.headDescription{
+    color: var(--text-color-1);
+    max-width: 750px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.registerStyle2 , .loginStyle2{
+    padding: 6px 20px;
+    margin-left: 30px;
+    border: 1px solid var(--primary-color);
+    border-radius : 4px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.registerStyle2:hover , .loginStyle2:hover{
+    border : 1px solid var(--background-color);
+    background: var(--primary-gradient);
+    color: var(--text-color);
+}

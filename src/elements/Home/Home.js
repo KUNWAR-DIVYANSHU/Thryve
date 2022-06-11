@@ -1,61 +1,114 @@
 /**
  * path = "/" or "/home"
  */
-import { Component } from 'react'
+import { useState } from 'react'
+import {Outlet , useNavigate } from 'react-router-dom'
 
 import styles from './home.module.css'
-import arrow from '../../image/greenArrow.svg'
+import swapButton from '../../image/rightSwap.svg'
 
-class Home extends Component{
-    render() {
+import logo from '../../image/logo2.png'
 
-        return <div className={styles.bodyStyle}>
+export default function Home(){
 
-            {/*---------------------------------------- Navigation Bar --------------------------------*/}
-            <div className={styles.navBarStyle}>
-                <div><img src="/logo1.png" width="24px" alt="thryve logo"/></div>
-                <div className={styles.navLinksParent}>
-                    <span className={styles.navLinks} >Features</span>
-                    
-                    <span className={styles.navLinks} >Tutorial</span>
-                    <span className={styles.navLinks} >Trainings</span>
-                    <span className={styles.navLinks} >Developer Docs</span>
-                </div>
-                <div>
-                    <span className={styles.loginStyle}>Login</span>
-                    <span className={styles.registerStyle} >Register</span>
-                </div>
-            </div>
+    const [tabNo , setTabNo] = useState(1);
+    const [currentPage , setCurrentPage] = useState(1);
+    const [max , setMax] = useState(3);
+    let navigate = useNavigate()
+    
 
-            {/*---------------------------------------- Main Content --------------------------------*/}
-            <div className={styles.mainContentStyle}>
-                <div className={styles.verMessage}> New features comes to Thryve Version 1.0 Beta
-                <img className={styles.verImage} src={arrow} alt="arrow"/>
-                </div>
+    return <div className={styles.bodyStyle}>
 
-                <div className={styles.headTitle}>Next Generation Software platform for empowering next generation education</div>
+    {/*---------------------------------------- Navigation Bar --------------------------------*/}
+    <div className={styles.navBarStyle}>
+        <div><img src={logo} width="68px" alt="thryve logo"/></div>
+        <div className={styles.navLinksParent}>
 
-                <div className={styles.headDescription}>Thryve is an educational software for educator and learners 
-                    powered by community of open source software developers and educators.</div>
-                <div>
-                    <span className={styles.loginStyle2}>Login</span>
-                    <span className={styles.registerStyle2} >Register</span>
-                </div>
-            </div>
+            <span className={styles.navLinks} 
+            style={ tabNo === 1 ? {color:'var(--primary-color)'} : {color:'var(--text-color-1)'}} >
+                Home</span>
+            
+            <span className={styles.navLinks} 
+            style={ tabNo === 2 ? {color:'var(--primary-color)'} : {color:'var(--text-color-1)'}} >
+                Tutorial</span>
 
-            {/*---------------------------------------- footer --------------------------------*/}
-            <div className={styles.footerStyle}>
-                <div>
-                    <span className={styles.navLinks2} >Contact</span>
-                    <span className={styles.navLinks2} >Privacy Policy</span>
-                    <span className={styles.navLinks2} >About Us</span>
-                </div>
-                <span>copyright @ Thryve 2022</span>
-                <span>Handicrafted With 😍 in India</span>
-            </div>
+            <span className={styles.navLinks} 
+            style={ tabNo === 3 ? {color:'var(--primary-color)'} : {color:'var(--text-color-1)'}} 
+            >Trainings</span>
+
+            <span className={styles.navLinks} 
+            style={ tabNo === 4 ? {color:'var(--primary-color)'} : {color:'var(--text-color-1)'}} 
+            >Documentations</span>
 
         </div>
+        <div>
+            <span className={styles.loginStyle} 
+            onClick={
+                ()=>{
+                        navigate('/authenticate/login')
+                }
+        }>Login</span>
+        
+            <span className={styles.registerStyle} >Register</span>
+        </div>
+    </div>
 
-    }}
+    {/*---------------------------------------- Main Content --------------------------------*/}
+    <div className={styles.mainContentStyle}>
+        <Outlet>
+        </Outlet>
+    </div>
 
-export default Home;
+    {/*----------------------------- buttons for navigation and indicator-------------------- */}
+    <div className={styles.swapButtons}>
+
+    { (currentPage > 1) &&
+        <img className={styles.LeftSwap} src={swapButton} alt="leftSwapBtn" 
+            onClick={
+                ()=>{
+                        setCurrentPage(currentPage-1)
+                        navigate(`/home/feature${currentPage-1}`)
+                        console.log(currentPage);
+                }
+        }/>
+    }
+
+        {(currentPage < max) &&
+        <img className={styles.RightSwap} src={swapButton} alt="rightSwapBtn"
+        onClick={
+            ()=>{
+                    console.log(currentPage);
+                    navigate(`/home/feature${currentPage+1}`)
+                    setCurrentPage(currentPage+1)
+            }
+        }/>}
+
+
+    </div>
+    <div className={styles.bottomLoader}>
+       <div className={styles.EmptyLoader}></div>
+       <div className={styles.filledLoader} style={{
+        width:`${95/max}%` , transform:`translateX(${currentPage*100-90}%)` ,
+        transition:`transform 0.5s ease-out`
+        }}></div>
+    </div>
+
+    {/*---------------------------------------- footer --------------------------------*/}
+    <div className={styles.footerStyle}>
+        <div>
+            <span className={styles.navLinks2} >Contact</span>
+            <span className={styles.navLinks2} >Privacy Policy</span>
+            <span className={styles.navLinks2} >About Us</span>
+        </div>
+        <span>copyright @ Thryve 2022</span>
+        <span>Handicrafted With 😍 in India</span>
+    </div>
+
+</div>
+
+}
+
+
+/*
+                
+*/

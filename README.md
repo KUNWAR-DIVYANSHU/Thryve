@@ -1,26 +1,36 @@
-<center> Interactive Software platform for empowering next generation education by passionate people for educators and learners who thryves to make a difference in the world. Thryve is an educational software for educator and learners powered by community of open source software developers and educators. </center>
+# Thryve Digital
 
-___
+![mainIllustration.svg](/src/image/mainIllustration.svg)
 
-### Installation 
+> Interactive Software platform for empowering next generation education by passionate people for educators and learners who thryves to make a difference in the world. Thryve is an educational software for educator and learners powered by community of open source software developers and educators.
+> 
+
+### **Installation**
+
 `npm install`
-### Run the App
-`npm start` 
-### Run the App in Production
+
+### **Run the App**
+
+`npm start`
+
+### **Run the App in Production**
+
 `npm run build`
-___
 
-## How to Contribute
+## **How to Contribute**
+
 - Todo
 
-## Contributors
+## **Contributors**
+
 - Todo
-  
-## Folder structure
-1. [Home](\src\elements\Home\Home.js)
-1. [Authenticate](\src\elements\Authenticate.js)
-    - [login](\src\elements\Authenticate\Login\Login.js)
-    - [register](\src\elements\Authenticate\Register\Register.js)
-    - [forgetpass](\src\elements\Authenticate\Forgetpass\Forgetpass.js)
-1. [Dashboard](\src\elements\Dashboard\Dashboard.js)
-1. [Docs](\src\elements\Docs\Docs.js)
+
+## **Folder structure**
+
+1. [Home](https://github.com/KUNWAR-DIVYANSHU/Thryve/blob/master/%5Csrc%5Celements%5CHome%5CHome.js)
+2. [Authenticate](https://github.com/KUNWAR-DIVYANSHU/Thryve/blob/master/%5Csrc%5Celements%5CAuthenticate.js)
+    - [login](https://github.com/KUNWAR-DIVYANSHU/Thryve/blob/master/%5Csrc%5Celements%5CAuthenticate%5CLogin%5CLogin.js)
+    - [register](https://github.com/KUNWAR-DIVYANSHU/Thryve/blob/master/%5Csrc%5Celements%5CAuthenticate%5CRegister%5CRegister.js)
+    - [forgetpass](https://github.com/KUNWAR-DIVYANSHU/Thryve/blob/master/%5Csrc%5Celements%5CAuthenticate%5CForgetpass%5CForgetpass.js)
+3. [Dashboard](https://github.com/KUNWAR-DIVYANSHU/Thryve/blob/master/%5Csrc%5Celements%5CDashboard%5CDashboard.js)
+4. [Docs](https://github.com/KUNWAR-DIVYANSHU/Thryve/blob/master/%5Csrc%5Celements%5CDocs%5CDocs.js)

@@ -10,7 +10,7 @@
 
 
 
-<img align="left" width="50%" height="400" src="/src/image/mainIllustration.svg">
+<img align="left" width="35%" height="400" src="/src/image/mainIllustration.svg">
 <br/>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=55F700&center=true&lines=Welcome+To+Thryve+Digital)](https://git.io/typing-svg)

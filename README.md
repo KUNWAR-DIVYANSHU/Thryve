@@ -4,16 +4,15 @@
 
 <h2 align="center">Thryve Digital</h2>
 
-[![Visits Badge](https://badges.pufler.dev/visits/KUNWAR-DIVYANSHU/Thryve)](https://github.com/KUNWAR-DIVYANSHU/Thryve)
-[![Updated Badge](https://badges.pufler.dev/updated/KUNWAR-DIVYANSHU/Thryve)](https://github.com/KUNWAR-DIVYANSHU/Thryve)
-[![Created Badge](https://badges.pufler.dev/created/KUNWAR-DIVYANSHU/Thryve)](https://github.com/KUNWAR-DIVYANSHU/Thryve)
+[![Visits Badge](https://badges.pufler.dev/visits/KUNWAR-DIVYANSHU/Thryve)](https://thryve-digital.herokuapp.com/)
+[![Updated Badge](https://badges.pufler.dev/updated/KUNWAR-DIVYANSHU/Thryve)](https://thryve-digital.herokuapp.com/)
+[![Created Badge](https://badges.pufler.dev/created/KUNWAR-DIVYANSHU/Thryve)](https://thryve-digital.herokuapp.com/)
 
 
 
-<img align="left" width="35%" height="400" src="/src/image/mainIllustration.svg">
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=55F700&center=true&lines=Welcome+To+Thryve+Digital)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=55F700&center=true&lines=Welcome+To+Thryve+Digital)](https://thryve-digital.herokuapp.com/)
 
 Interactive Software platform for empowering next generation education by passionate people for educators and learners who thryves to make a difference in the world. Thryve is an educational software for educator and learners powered by community of open source software developers and educators. 
 
@@ -51,7 +50,7 @@ Run the App in Production `npm run build`
 
 ## **Contributors**
 
-[![Contributors Display](https://badges.pufler.dev/contributors/KUNWAR-DIVYANSHU/Thryve?size=50&padding=5&bots=true)](https://github.com/KUNWAR-DIVYANSHU/Thryve)
+[![Contributors Display](https://badges.pufler.dev/contributors/KUNWAR-DIVYANSHU/Thryve?size=50&padding=5&bots=true)](https://thryve-digital.herokuapp.com/)
 
 ## **Routes structure**
 

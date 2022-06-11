@@ -1,21 +1,24 @@
-# Thryve Digital
+<p align="center">
+ <img width="50" height="50" src="/public/logo1.png">
+</p>
+<h2 align="center"> Thryve Digital</h2>
 
-![mainIllustration.svg](/src/image/mainIllustration.svg)
+<img align="left" width="50%" height="400" src="/src/image/mainIllustration.svg">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Interactive Software platform for empowering next generation education by passionate people for educators and learners who thryves to make a difference in the world. Thryve is an educational software for educator and learners powered by community of open source software developers and educators. 
+<br clear="left"/>
 
-> Interactive Software platform for empowering next generation education by passionate people for educators and learners who thryves to make a difference in the world. Thryve is an educational software for educator and learners powered by community of open source software developers and educators.
-> 
+## **Setting Up The Development Environment**
 
-### **Installation**
+Install The dependencies react and others `npm install`
 
-`npm install`
+Run the App in development environment `npm start`
 
-### **Run the App**
-
-`npm start`
-
-### **Run the App in Production**
-
-`npm run build`
+Run the App in Production `npm run build`
 
 ## **How to Contribute**
 

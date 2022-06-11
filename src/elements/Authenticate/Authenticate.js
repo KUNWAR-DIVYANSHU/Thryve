@@ -4,10 +4,10 @@
  */
 
 import { Navigate, Outlet } from "react-router-dom";
-import 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'
+
 import styles from './Authenticate.module.css'
 import logo from '../../image/logo.png'
-
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { useState } from "react";
 
  export default function Authenticate(){
@@ -23,8 +23,8 @@ import { useState } from "react";
                     <img src={logo} alt="logo" />
                 </div>
                 <div className={styles.illustrationContainer}> 
-                    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_xrtz05z1.json"  background="transparent"  
-                    speed="2"   loop  autoplay ></lottie-player>
+                    <Player src="https://assets3.lottiefiles.com/packages/lf20_xrtz05z1.json"  background="transparent"  
+                    speed="2"   loop  autoplay />
                 </div>
             </div>   
 

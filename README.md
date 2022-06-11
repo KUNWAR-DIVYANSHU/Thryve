@@ -9,7 +9,7 @@
 [![Created Badge](https://badges.pufler.dev/created/KUNWAR-DIVYANSHU/Thryve)](https://thryve-digital.herokuapp.com/)
 
 
-
+<img align="left" width="25%" height="400" src="/src/image/mainIllustration.svg">
 <br/>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=55F700&center=true&lines=Welcome+To+Thryve+Digital)](https://thryve-digital.herokuapp.com/)

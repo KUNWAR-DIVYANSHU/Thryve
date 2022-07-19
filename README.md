@@ -4,9 +4,7 @@
 
 <h2 align="center">Thryve Digital</h2>
 
-[![Visits Badge](https://badges.pufler.dev/visits/KUNWAR-DIVYANSHU/Thryve)](https://thryve-digital.herokuapp.com/)
-[![Updated Badge](https://badges.pufler.dev/updated/KUNWAR-DIVYANSHU/Thryve)](https://thryve-digital.herokuapp.com/)
-[![Created Badge](https://badges.pufler.dev/created/KUNWAR-DIVYANSHU/Thryve)](https://thryve-digital.herokuapp.com/)
+[Demo](https://thryve-digital.herokuapp.com/)
 
 
 <img align="left" width="28%" height="400" src="/src/image/mainIllustration.svg">

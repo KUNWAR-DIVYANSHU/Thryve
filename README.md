@@ -46,10 +46,6 @@ Run the App in Production `npm run build`
 - Add developer docs and edit this readme with folder structure
 - Make a pull request
 
-## **Contributors**
-
-[![Contributors Display](https://badges.pufler.dev/contributors/KUNWAR-DIVYANSHU/Thryve?size=50&padding=5&bots=true)](https://thryve-digital.herokuapp.com/)
-
 ## **Routes structure**
 
 <details><summary>Thryve</summary>
